@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
 
@@ -8,1805 +7,1115 @@
           content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="Snehal Pawar — Cloud & DevOps Engineer Portfolio">
+          content="Snehal Pawar - Cloud & DevOps Engineer Portfolio">
 
-    <meta name="theme-color"
-          content="#061426">
+    <title>Snehal Pawar | Cloud & DevOps Engineer</title>
 
-    <title>
-        Snehal Pawar | Cloud & DevOps Engineer
-    </title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
 
-    <!-- Google Fonts -->
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
+    <!-- Font Awesome - CSS only -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
 
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
-          rel="stylesheet">
-
-    <!-- Main CSS -->
-    <link rel="stylesheet"
-          href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
-
 
 <!-- =====================================================
      NAVBAR
 ===================================================== -->
 
-<header class="nav">
+<header class="navbar">
 
-    <a class="brand"
-       href="#home"
-       aria-label="Snehal Pawar Home">
+    <div class="nav-container">
 
-        <span class="brand-mark">
-            SP
-        </span>
-
-        <span>
-            Snehal Pawar
-        </span>
-
-    </a>
-
-
-    <!-- Mobile Menu Checkbox -->
-    <input
-        class="menu-toggle"
-        type="checkbox"
-        id="menu-toggle"
-    >
-
-
-    <!-- Mobile Menu Button -->
-    <label
-        class="menu-button"
-        for="menu-toggle"
-        aria-label="Toggle navigation">
-
-        <span></span>
-        <span></span>
-        <span></span>
-
-    </label>
-
-
-    <!-- Navigation -->
-    <nav class="nav-links">
-
-        <a href="#home">
-            Home
+        <a href="#home" class="logo-area">
+            <div class="logo">SP</div>
+            <span>Snehal Pawar</span>
         </a>
 
-        <a href="#about">
-            About
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a
+            href="https://drive.google.com/file/d/1p9yV_vwv-QyQ6Du_m72S_MTtkagmg6sy/view?usp=drivesdk"
+            target="_blank"
+            class="resume-btn nav-resume"
+        >
+            <i class="fa-solid fa-download"></i>
+            Download Resume
         </a>
 
-        <a href="#skills">
-            Skills
-        </a>
-
-        <a href="#projects">
-            Projects
-        </a>
-
-        <a href="#experience">
-            Experience
-        </a>
-
-        <a href="#certifications">
-            Certifications
-        </a>
-
-        <a href="#education">
-            Education
-        </a>
-
-        <a href="#contact">
-            Contact
-        </a>
-
-    </nav>
-
-
-    <!-- Resume -->
-    <a
-        class="nav-resume"
-        href="https://drive.google.com/file/d/1p9yV_vwv-QyQ6Du_m72S_MTtkagmg6sy/view?usp=drivesdk"
-        target="_blank"
-        rel="noopener">
-
-        ⇩&nbsp; Download Resume
-
-    </a>
+    </div>
 
 </header>
 
 
-
 <main>
 
-
 <!-- =====================================================
-     HERO SECTION
+     HERO
 ===================================================== -->
 
-<section id="home"
-         class="hero">
+<section id="home" class="hero">
 
+    <div class="hero-container">
 
-    <!-- HERO LEFT -->
-    <div class="hero-copy">
+        <!-- LEFT -->
+        <div class="hero-content">
 
+            <p class="hello">Hi, I'm</p>
 
-        <p class="eyebrow">
+            <h1>
+                Snehal <span>Pawar</span>
+            </h1>
 
-            <span class="pulse"></span>
+            <h2>Cloud &amp; DevOps Engineer</h2>
 
-            OPEN TO DEVOPS OPPORTUNITIES
+            <p class="hero-description">
+                I build, automate and deploy scalable cloud
+                infrastructure and applications for a better tomorrow.
+            </p>
 
-        </p>
+            <!-- Technology pills -->
 
+            <div class="tech-pills">
 
-        <p class="hello">
-            Hi, I'm
-        </p>
-
-
-        <h1>
-            Snehal
-            <span>
-                Pawar
-            </span>
-        </h1>
-
-
-        <h2>
-            Cloud &amp; DevOps Engineer
-        </h2>
-
-
-        <p class="hero-description">
-
-            I build, automate and deploy scalable cloud
-            infrastructure and applications for a better tomorrow.
-
-        </p>
-
-
-        <!-- TECH PILLS -->
-
-        <div class="tech-pills">
-
-
-            <span>
-                <b class="aws">
+                <span>
+                    <i class="fa-brands fa-aws"></i>
                     AWS
-                </b>
-                AWS
-            </span>
-
-
-            <span>
-                <b class="docker">
-                    ◈
-                </b>
-                Docker
-            </span>
-
-
-            <span>
-                <b class="k8s">
-                    ☸
-                </b>
-                Kubernetes
-            </span>
-
-
-            <span>
-                <b class="jenkins">
-                    ●
-                </b>
-                Jenkins
-            </span>
-
-
-            <span>
-                <b class="terraform">
-                    ◆
-                </b>
-                Terraform
-            </span>
-
-
-            <span>
-                <b class="linux">
-                    ⌁
-                </b>
-                Linux
-            </span>
-
-
-            <span>
-                <b class="git">
-                    ◆
-                </b>
-                Git
-            </span>
-
-
-            <span>
-                <b class="security">
-                    ◇
-                </b>
-                DevSecOps
-            </span>
-
-
-        </div>
-
-
-
-        <!-- HERO BUTTONS -->
-
-        <div class="hero-actions">
-
-
-            <a
-                class="button primary"
-                href="#projects">
-
-                🚀 &nbsp;
-                Explore My Projects
-                &nbsp; →
-
-            </a>
-
-
-            <a
-                class="button secondary"
-                href="https://drive.google.com/file/d/1p9yV_vwv-QyQ6Du_m72S_MTtkagmg6sy/view?usp=drivesdk"
-                target="_blank"
-                rel="noopener">
-
-                ⇩ &nbsp;
-                Download Resume
-
-            </a>
-
-
-        </div>
-
-
-
-        <!-- SOCIAL LINKS -->
-
-        <div class="social-row">
-
-
-            <a
-                href="https://github.com/snehalpawar29"
-                target="_blank"
-                rel="noopener">
-
-                <span>
-                    ◉
                 </span>
 
-                GitHub
-
-            </a>
-
-
-            <a
-                href="https://www.linkedin.com/in/snehalpawar29"
-                target="_blank"
-                rel="noopener">
-
                 <span>
-                    in
+                    <i class="fa-brands fa-docker"></i>
+                    Docker
                 </span>
 
-                LinkedIn
-
-            </a>
-
-
-            <a href="#contact">
-
                 <span>
-                    ◎
+                    <i class="fa-solid fa-dharmachakra"></i>
+                    Kubernetes
                 </span>
 
-                Portfolio
+                <span>
+                    <i class="fa-brands fa-jenkins"></i>
+                    Jenkins
+                </span>
 
-            </a>
+                <span>
+                    <i class="fa-solid fa-cubes"></i>
+                    Terraform
+                </span>
 
+                <span>
+                    <i class="fa-brands fa-linux"></i>
+                    Linux
+                </span>
+
+                <span>
+                    <i class="fa-brands fa-git-alt"></i>
+                    Git
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-shield-halved"></i>
+                    DevSecOps
+                </span>
+
+            </div>
+
+
+            <!-- Buttons -->
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="primary-btn">
+                    <i class="fa-solid fa-rocket"></i>
+                    Explore My Projects
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a
+                    href="https://drive.google.com/file/d/1p9yV_vwv-QyQ6Du_m72S_MTtkagmg6sy/view?usp=drivesdk"
+                    target="_blank"
+                    class="secondary-btn"
+                >
+                    <i class="fa-solid fa-download"></i>
+                    Download Resume
+                </a>
+
+            </div>
+
+
+            <!-- Social links -->
+
+            <div class="social-links">
+
+                <a
+                    href="https://github.com/snehalpawar29"
+                    target="_blank"
+                >
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/snehal-pawar-8a55b8216/"
+                    target="_blank"
+                >
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                </a>
+
+                <a href="#contact">
+                    <i class="fa-solid fa-globe"></i>
+                    Portfolio
+                </a>
+
+            </div>
 
         </div>
 
 
-    </div>
+        <!-- RIGHT -->
 
+        <div class="hero-image-area">
 
+            <div class="hero-glow"></div>
 
-    <!-- =================================================
-         HERO RIGHT / PHOTO
-    ================================================= -->
+            <div class="tech-decoration decoration-1">
+                <i class="fa-solid fa-cloud"></i>
+            </div>
 
-    <div
-        class="hero-visual"
-        aria-label="Cloud and DevOps illustration">
+            <div class="tech-decoration decoration-2">
+                <i class="fa-solid fa-server"></i>
+            </div>
 
+            <div class="tech-decoration decoration-3">
+                <i class="fa-solid fa-code"></i>
+            </div>
 
-        <div class="glow"></div>
+            <div class="build-text">
+                <span>Build</span>
+                <span>Automate</span>
+                <span>Deploy</span>
+                <span>Learn</span>
 
-
-        <div class="orbit orbit-a"></div>
-
-
-        <div class="orbit orbit-b"></div>
-
-
-
-        <!-- Handwritten Style Text -->
-
-        <div class="scribble">
-
-            Build<br>
-            Automate<br>
-            Deploy<br>
-            Learn
-
-            <i>
-                ↗
-            </i>
-
-        </div>
-
-
-
-        <!-- Cloud -->
-
-        <div class="cloud-icon">
-            ☁
-        </div>
-
-
-
-        <!-- Server -->
-
-        <div class="server-icon">
-
-            ▤
-
-            <small>
-                ▤
-            </small>
-
-        </div>
-
-
-
-        <!-- Code -->
-
-        <div class="code-icon">
-            &lt;/&gt;
-        </div>
-
-
-
-        <!-- Gear -->
-
-        <div class="gear-icon">
-            ⚙
-        </div>
-
-
-
-        <!-- YOUR PHOTO -->
-
-        <div class="portrait">
+                <div class="arrow-line">
+                    ↗
+                </div>
+            </div>
 
             <img
-                src="images/snehal-profile.jpg"
-                alt="Snehal Pawar">
+                src="images/profile.png"
+                alt="Snehal Pawar"
+                class="profile-image"
+            >
 
         </div>
 
-
     </div>
 
-
 </section>
-
 
 
 <!-- =====================================================
      ABOUT + SKILLS
 ===================================================== -->
 
-<section class="split-section">
+<section class="about-skills-section">
+
+    <div class="section-grid">
+
+        <!-- ABOUT -->
+
+        <section id="about" class="about-section">
+
+            <div class="section-heading">
+
+                <span class="section-number">01</span>
+
+                <h2>About Me</h2>
+
+            </div>
+
+            <p>
+                I'm a passionate and dedicated Cloud &amp; DevOps Engineer
+                with hands-on experience in AWS, Linux, Docker, Kubernetes,
+                Jenkins, Terraform and CI/CD. I enjoy solving problems,
+                automating workflows and building reliable infrastructure
+                that helps applications scale.
+            </p>
+
+            <p>
+                I'm always eager to learn new technologies and take on
+                challenging opportunities to grow in the DevOps field.
+            </p>
 
 
+            <div class="about-details">
 
-    <!-- ABOUT -->
-
-    <div
-        id="about"
-        class="about-panel">
-
-
-        <div class="section-title">
-
-            <span>
-                01
-            </span>
-
-            <h2>
-                About Me
-            </h2>
-
-        </div>
-
-
-
-        <p class="about-lead">
-
-            I'm a passionate and dedicated
-            <strong>
-                Cloud &amp; DevOps Engineer
-            </strong>
-            with hands-on experience in AWS, Linux,
-            Docker, Kubernetes, Jenkins, Terraform and CI/CD.
-
-        </p>
-
-
-
-        <p>
-
-            I enjoy solving problems, automating workflows
-            and building reliable infrastructure that helps
-            applications scale. I'm always eager to learn
-            new technologies and take on challenging
-            opportunities to grow in the DevOps field.
-
-        </p>
-
-
-
-        <!-- ABOUT FACTS -->
-
-        <div class="about-facts">
-
-
-            <div>
-
-                <span>
-                    ⌁
-                </span>
-
-                <strong>
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
                     Pune, India
-                </strong>
+                </div>
 
-            </div>
-
-
-            <div>
-
-                <span>
-                    ▣
-                </span>
-
-                <strong>
+                <div>
+                    <i class="fa-solid fa-graduation-cap"></i>
                     Master's in Computer Science
-                </strong>
+                </div>
 
-            </div>
-
-
-            <div>
-
-                <span>
-                    ◎
-                </span>
-
-                <strong>
+                <div>
+                    <i class="fa-solid fa-bullseye"></i>
                     Problem Solver &amp; Quick Learner
-                </strong>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+
+        <section id="skills" class="skills-section">
+
+            <div class="section-heading">
+
+                <span class="section-number">02</span>
+
+                <h2>Skills &amp; Tools</h2>
 
             </div>
 
 
-        </div>
+            <div class="skills-grid">
 
+
+                <!-- CLOUD -->
+
+                <div class="skill-card cloud-card">
+
+                    <h3>Cloud Platforms</h3>
+
+                    <div class="skill-items">
+
+                        <div>
+                            <i class="fa-brands fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-server"></i>
+                            <span>EC2</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-user-shield"></i>
+                            <span>IAM</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-network-wired"></i>
+                            <span>VPC</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-database"></i>
+                            <span>S3</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-database"></i>
+                            <span>RDS</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-diagram-project"></i>
+                            <span>ALB</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-cloud"></i>
+                            <span>CloudWatch</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CONTAINERIZATION -->
+
+                <div class="skill-card">
+
+                    <h3>Containerization &amp; Orchestration</h3>
+
+                    <div class="skill-items">
+
+                        <div>
+                            <i class="fa-brands fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-dharmachakra"></i>
+                            <span>Kubernetes</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CI/CD -->
+
+                <div class="skill-card">
+
+                    <h3>CI/CD &amp; Automation</h3>
+
+                    <div class="skill-items">
+
+                        <div>
+                            <i class="fa-brands fa-jenkins"></i>
+                            <span>Jenkins</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-brands fa-github"></i>
+                            <span>GitHub Actions</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-code-branch"></i>
+                            <span>Argo CD</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- IAC -->
+
+                <div class="skill-card">
+
+                    <h3>Infrastructure as Code</h3>
+
+                    <div class="skill-items">
+
+                        <div>
+                            <i class="fa-solid fa-cubes"></i>
+                            <span>Terraform</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-a"></i>
+                            <span>Ansible</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VERSION CONTROL -->
+
+                <div class="skill-card">
+
+                    <h3>Version Control &amp; Scripting</h3>
+
+                    <div class="skill-items">
+
+                        <div>
+                            <i class="fa-brands fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-brands fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-brands fa-python"></i>
+                            <span>Python</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-terminal"></i>
+                            <span>Bash</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
 
     </div>
-
-
-
-    <!-- =================================================
-         SKILLS
-    ================================================= -->
-
-    <div
-        id="skills"
-        class="skills-panel">
-
-
-        <div class="section-title">
-
-            <span>
-                02
-            </span>
-
-            <h2>
-                Skills &amp; Tools
-            </h2>
-
-        </div>
-
-
-
-        <div class="skill-grid">
-
-
-            <!-- CLOUD -->
-
-            <article class="skill-card wide">
-
-                <h3>
-                    Cloud Platforms
-                </h3>
-
-
-                <div class="icon-list">
-
-
-                    <span>
-                        <i>☁</i>
-                        AWS
-                    </span>
-
-
-                    <span>
-                        <i>EC2</i>
-                        EC2
-                    </span>
-
-
-                    <span>
-                        <i>IAM</i>
-                        IAM
-                    </span>
-
-
-                    <span>
-                        <i>VPC</i>
-                        VPC
-                    </span>
-
-
-                    <span>
-                        <i>S3</i>
-                        S3
-                    </span>
-
-
-                    <span>
-                        <i>RDS</i>
-                        RDS
-                    </span>
-
-
-                    <span>
-                        <i>ALB</i>
-                        ALB
-                    </span>
-
-
-                    <span>
-                        <i>◉</i>
-                        CloudWatch
-                    </span>
-
-
-                </div>
-
-            </article>
-
-
-
-            <!-- CONTAINERS -->
-
-            <article class="skill-card wide">
-
-                <h3>
-                    Containerization &amp; Orchestration
-                </h3>
-
-
-                <div class="icon-list">
-
-
-                    <span>
-                        <i>◈</i>
-                        Docker
-                    </span>
-
-
-                    <span>
-                        <i>☸</i>
-                        Kubernetes
-                    </span>
-
-
-                </div>
-
-            </article>
-
-
-
-            <!-- CICD -->
-
-            <article class="skill-card">
-
-                <h3>
-                    CI/CD &amp; Automation
-                </h3>
-
-
-                <div class="icon-list">
-
-
-                    <span>
-                        <i>●</i>
-                        Jenkins
-                    </span>
-
-
-                    <span>
-                        <i>⌘</i>
-                        GitHub Actions
-                    </span>
-
-
-                    <span>
-                        <i>◈</i>
-                        Argo CD
-                    </span>
-
-
-                </div>
-
-            </article>
-
-
-
-            <!-- IAC -->
-
-            <article class="skill-card">
-
-                <h3>
-                    Infrastructure as Code
-                </h3>
-
-
-                <div class="icon-list">
-
-
-                    <span>
-                        <i>◆</i>
-                        Terraform
-                    </span>
-
-
-                    <span>
-                        <i>A</i>
-                        Ansible
-                    </span>
-
-
-                </div>
-
-            </article>
-
-
-
-            <!-- VERSION CONTROL -->
-
-            <article class="skill-card">
-
-                <h3>
-                    Version Control &amp; Scripting
-                </h3>
-
-
-                <div class="icon-list">
-
-
-                    <span>
-                        <i>◆</i>
-                        Git
-                    </span>
-
-
-                    <span>
-                        <i>◉</i>
-                        GitHub
-                    </span>
-
-
-                    <span>
-                        <i>Py</i>
-                        Python
-                    </span>
-
-
-                    <span>
-                        <i>⌁</i>
-                        Bash
-                    </span>
-
-
-                </div>
-
-            </article>
-
-
-        </div>
-
-    </div>
-
 
 </section>
 
 
-
 <!-- =====================================================
-     FEATURED PROJECTS
+     PROJECTS
 ===================================================== -->
 
-<section
-    id="projects"
-    class="section-block">
+<section id="projects" class="projects-section">
 
+    <div class="section-title-row">
 
-    <div class="section-heading-row">
+        <div class="section-heading">
 
+            <span class="section-number">03</span>
 
-        <div class="section-title">
-
-            <span>
-                03
-            </span>
-
-            <h2>
-                Featured Projects
-            </h2>
+            <h2>Featured Projects</h2>
 
         </div>
 
-
         <a
-            class="view-all"
-            href="https://github.com/snehalpawar29?tab=repositories"
+            href="https://github.com/snehalpawar29"
             target="_blank"
-            rel="noopener">
-
+            class="view-all"
+        >
             View All Projects
-            &nbsp; →
-
+            <i class="fa-solid fa-arrow-right"></i>
         </a>
-
 
     </div>
 
 
-
-    <div class="project-grid">
-
+    <div class="projects-grid">
 
 
         <!-- PROJECT 1 -->
 
         <article class="project-card">
 
+            <div class="project-visual aws-visual">
 
-            <div class="project-art aws-art">
+                <i class="fa-brands fa-aws big-icon"></i>
 
-
-                <div class="mini-flow">
-
-                    <b>
-                        AWS
-                    </b>
-
-                    <span>
-                        ↓
-                    </span>
-
-                    <em>
-                        ALB
-                    </em>
-
-                    <span>
-                        →
-                    </span>
-
-                    <em>
-                        EC2
-                    </em>
-
-                    <span>
-                        →
-                    </span>
-
-                    <em>
-                        RDS
-                    </em>
-
+                <div class="architecture">
+                    <span>VPC</span>
+                    <span>ALB</span>
+                    <span>EC2</span>
+                    <span>RDS</span>
+                    <span>CloudFront</span>
                 </div>
-
-
-                <div class="arch-lines"></div>
-
 
             </div>
 
-
-
-            <h3>
-                AWS 3-Tier Architecture
-            </h3>
-
+            <h3>AWS 3-Tier Architecture</h3>
 
             <p>
-
-                Designed a 3-tier AWS architecture across
-                2 AZs with presentation, application and
-                database layers. Configured ALB, Auto Scaling,
-                RDS, Route 53 and CloudFront.
-
+                Designed a 3-tier AWS architecture across 2 AZs
+                with presentation, application and database layers.
+                Configured ALB, Auto Scaling, RDS, Route 53 and
+                CloudFront for high availability and security.
             </p>
-
 
             <div class="project-tags">
 
                 <span>
-                    ☁ AWS
+                    <i class="fa-brands fa-aws"></i>
+                    AWS
                 </span>
 
                 <span>
-                    ◆ Terraform
+                    <i class="fa-solid fa-cubes"></i>
+                    Terraform
                 </span>
 
                 <span>
-                    ◈ Docker
+                    <i class="fa-brands fa-docker"></i>
+                    Docker
                 </span>
 
             </div>
 
-
             <a
                 href="https://github.com/snehalpawar29/aws-3-tier-architecture-project"
                 target="_blank"
-                rel="noopener">
-
+                class="project-link"
+            >
                 View Project
-                &nbsp; →
-
+                <i class="fa-solid fa-arrow-right"></i>
             </a>
 
-
         </article>
-
 
 
         <!-- PROJECT 2 -->
 
         <article class="project-card">
 
+            <div class="project-visual easyshop-visual">
 
-            <div class="project-art pipeline-art">
+                <i class="fa-brands fa-jenkins"></i>
 
+                <span>→</span>
 
-                <div class="pipeline">
+                <i class="fa-brands fa-docker"></i>
 
-                    <b>
-                        EasyShop
-                    </b>
+                <span>→</span>
 
-                    <span>
-                        ◆
-                    </span>
+                <i class="fa-solid fa-dharmachakra"></i>
 
-                    <span>
-                        🐳
-                    </span>
+                <span>→</span>
 
-                    <span>
-                        ●
-                    </span>
-
-                    <span>
-                        ☸
-                    </span>
-
-                    <span>
-                        ☸
-                    </span>
-
-                </div>
-
-
-                <small>
-
-                    Jenkins
-                    &nbsp;→&nbsp;
-                    Docker
-                    &nbsp;→&nbsp;
-                    Trivy
-                    &nbsp;→&nbsp;
-                    Argo CD
-
-                </small>
-
+                <i class="fa-solid fa-arrows-spin"></i>
 
             </div>
 
-
-
-            <h3>
-                EasyShop – DevSecOps &amp; GitOps
-            </h3>
-
+            <h3>EasyShop – DevSecOps &amp; GitOps</h3>
 
             <p>
-
                 Deployed a containerized e-commerce application
-                on an AWS EKS cluster using Terraform.
-                Automated builds with Jenkins and implemented
-                GitOps with Argo CD.
-
+                on AWS EKS using Terraform. Automated builds and
+                image scanning with Trivy and implemented GitOps
+                based deployment using Argo CD.
             </p>
-
 
             <div class="project-tags">
 
-                <span>
-                    ☁ AWS
-                </span>
-
-                <span>
-                    ◈ Docker
-                </span>
-
-                <span>
-                    ☸ Kubernetes
-                </span>
+                <span>AWS</span>
+                <span>Docker</span>
+                <span>Kubernetes</span>
 
             </div>
 
-
             <a
-                href="https://github.com/snehalpawar29?tab=repositories"
+                href="https://github.com/snehalpawar29"
                 target="_blank"
-                rel="noopener">
-
+                class="project-link"
+            >
                 View Project
-                &nbsp; →
-
+                <i class="fa-solid fa-arrow-right"></i>
             </a>
 
-
         </article>
-
 
 
         <!-- PROJECT 3 -->
 
         <article class="project-card">
 
+            <div class="project-visual">
 
-            <div class="project-art container-art">
+                <i class="fa-brands fa-jenkins"></i>
 
+                <span>+</span>
 
-                <div class="stack-box">
+                <i class="fa-brands fa-github"></i>
 
-                    <span>
-                        ▣
-                    </span>
+                <span>+</span>
 
-                    <span>
-                        ⚙
-                    </span>
-
-                    <span>
-                        ▤
-                    </span>
-
-                </div>
-
-
-                <div class="mini-pipeline">
-
-                    Jenkins
-                    &nbsp;
-                    GitHub Actions
-                    &nbsp;
-                    PostgreSQL
-
-                </div>
-
+                <i class="fa-solid fa-database"></i>
 
             </div>
 
-
-
-            <h3>
-                Multi-Container Blog App
-            </h3>
-
+            <h3>Multi-Container Blog App</h3>
 
             <p>
-
-                Built a multi-container application with
-                frontend, backend and PostgreSQL using Docker.
-                Deployed on ECS with ECR.
-
+                Built a multi-container application with frontend,
+                backend and PostgreSQL developed using Docker.
+                Deployed the application on ECS with ECR.
             </p>
-
 
             <div class="project-tags">
 
-                <span>
-                    ◈ Docker
-                </span>
-
-                <span>
-                    ☁ ECS
-                </span>
-
-                <span>
-                    DB PostgreSQL
-                </span>
+                <span>Docker</span>
+                <span>ECS</span>
+                <span>PostgreSQL</span>
 
             </div>
 
-
             <a
-                href="https://github.com/snehalpawar29?tab=repositories"
+                href="https://github.com/snehalpawar29"
                 target="_blank"
-                rel="noopener">
-
+                class="project-link"
+            >
                 View Project
-                &nbsp; →
-
+                <i class="fa-solid fa-arrow-right"></i>
             </a>
 
-
         </article>
-
 
 
         <!-- PROJECT 4 -->
 
         <article class="project-card">
 
+            <div class="project-visual">
 
-            <div class="project-art k8s-art">
+                <i class="fa-solid fa-cubes"></i>
 
+                <span>+</span>
 
-                <div class="k8s-flow">
+                <i class="fa-solid fa-a"></i>
 
-                    <b>
-                        React
-                    </b>
+                <span>+</span>
 
-                    <span>
-                        +
-                    </span>
-
-                    <b>
-                        Node
-                    </b>
-
-                    <span>
-                        +
-                    </span>
-
-                    <b>
-                        MongoDB
-                    </b>
-
-                </div>
-
-
-                <div class="k8s-badges">
-
-                    <span>
-                        ◆
-                    </span>
-
-                    <span>
-                        ☸
-                    </span>
-
-                    <span>
-                        ◉
-                    </span>
-
-                </div>
-
+                <i class="fa-solid fa-leaf"></i>
 
             </div>
 
-
-
-            <h3>
-                Kubernetes Chat Application
-            </h3>
-
+            <h3>Kubernetes Chat Application</h3>
 
             <p>
-
-                Containerized frontend and backend services
-                and deployed them on Kubernetes with persistent
+                Containerized frontend and backend services and
+                deployed them on Kubernetes with persistent
                 MongoDB storage and NodePort access.
-
             </p>
-
 
             <div class="project-tags">
 
-                <span>
-                    ☸ Kubernetes
-                </span>
-
-                <span>
-                    ◈ Docker
-                </span>
-
-                <span>
-                    ◉ MongoDB
-                </span>
+                <span>Kubernetes</span>
+                <span>Docker</span>
+                <span>MongoDB</span>
 
             </div>
-
 
             <a
                 href="https://github.com/snehalpawar29/full-stack-chatApp"
                 target="_blank"
-                rel="noopener">
-
+                class="project-link"
+            >
                 View Project
-                &nbsp; →
-
+                <i class="fa-solid fa-arrow-right"></i>
             </a>
 
-
         </article>
-
 
     </div>
 
 </section>
 
 
-
 <!-- =====================================================
-     EXPERIENCE + CERTIFICATIONS + EDUCATION
+     EXPERIENCE
 ===================================================== -->
 
-<section class="lower-grid">
+<section id="experience" class="experience-section">
 
+    <div class="section-grid">
 
+        <section class="experience-content">
 
-    <!-- EXPERIENCE -->
+            <div class="section-heading">
 
-    <div
-        id="experience"
-        class="experience-panel">
+                <span class="section-number">04</span>
 
-
-        <div class="section-title">
-
-            <span>
-                04
-            </span>
-
-            <h2>
-                Experience
-            </h2>
-
-        </div>
-
-
-
-        <div class="experience-card">
-
-
-            <div class="exp-top">
-
-
-                <div>
-
-
-                    <span class="round-icon">
-                        ◉
-                    </span>
-
-
-                    <div>
-
-                        <h3>
-                            Exlearn Technologies
-                        </h3>
-
-                        <p>
-                            Cloud &amp; DevOps Intern
-                        </p>
-
-                    </div>
-
-
-                </div>
-
-
-
-                <div class="date">
-
-                    ▣ Dec '25 – Jun '26
-
-                    <br>
-
-                    <small>
-                        ⌖ Pune
-                    </small>
-
-                </div>
-
+                <h2>Experience</h2>
 
             </div>
 
 
+            <div class="experience-card">
 
-            <h4>
+                <div class="experience-header">
 
-                Project:
-                EasyShop – End-to-End DevSecOps &amp;
-                GitOps Architecture
+                    <div class="company-icon">
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
 
-            </h4>
+                    <div>
 
+                        <h3>Exlearn Technologies</h3>
 
+                        <p>Cloud &amp; DevOps Intern</p>
 
-            <ul>
+                    </div>
 
-                <li>
-                    Deployed a containerized e-commerce
-                    application on a 2-node AWS EKS cluster
-                    using Terraform.
-                </li>
+                    <div class="experience-date">
+                        <i class="fa-regular fa-calendar"></i>
+                        Dec '25 – Jun '26
+                        <br>
+                        <small>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Pune
+                        </small>
+                    </div>
 
-                <li>
-                    Automated application builds and image
-                    delivery with Jenkins, publishing Docker
-                    images to Docker Hub.
-                </li>
-
-                <li>
-                    Integrated Trivy into the CI pipeline
-                    to scan Docker images for security
-                    vulnerabilities.
-                </li>
-
-                <li>
-                    Implemented GitOps-based deployment
-                    using Argo CD with GitHub and Kubernetes.
-                </li>
-
-                <li>
-                    Configured HPA for 2–5 replicas and
-                    monitored workloads using Prometheus
-                    and Grafana.
-                </li>
-
-            </ul>
+                </div>
 
 
-        </div>
+                <div class="experience-project">
 
+                    <strong>
+                        Project: EasyShop – End-to-End DevSecOps &amp; GitOps Architecture
+                    </strong>
 
-    </div>
+                    <ul>
 
+                        <li>
+                            Deployed a containerized e-commerce application
+                            on an AWS EKS cluster using Terraform.
+                        </li>
 
+                        <li>
+                            Automated application builds and image delivery
+                            with Jenkins, publishing Docker images to Docker Hub.
+                        </li>
 
-    <!-- RIGHT SIDE -->
+                        <li>
+                            Integrated Trivy into the CI pipeline to scan
+                            Docker images for security vulnerabilities.
+                        </li>
 
-    <div class="right-lower">
+                        <li>
+                            Implemented GitOps-based deployment using
+                            Argo CD with GitHub and Kubernetes.
+                        </li>
 
+                        <li>
+                            Configured HPA for 2–5 replicas and monitored
+                            workloads using Prometheus and Grafana.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
 
 
         <!-- CERTIFICATIONS -->
 
-        <div id="certifications">
+        <section id="certifications" class="certifications-section">
 
+            <div class="section-heading">
 
-            <div class="section-title">
+                <span class="section-number">05</span>
 
-                <span>
-                    05
-                </span>
-
-                <h2>
-                    Certifications
-                </h2>
+                <h2>Certifications</h2>
 
             </div>
 
 
+            <div class="certification-grid">
 
-            <div class="cert-grid">
+                <div class="certification-card">
 
-
-                <div class="cert-card">
-
-
-                    <span class="cert-icon">
-                        ✥
-                    </span>
-
+                    <div class="certificate-icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
 
                     <div>
 
-                        <strong>
-                            Cloud &amp; DevOps with AI
-                        </strong>
+                        <h3>Cloud &amp; DevOps with AI</h3>
 
-                        <small>
-                            Exlearn Technologies
-                            <br>
-                            Aug '26
-                        </small>
+                        <p>Exlearn Technologies</p>
+
+                        <small>Aug '26</small>
 
                     </div>
-
 
                 </div>
 
 
+                <div class="certification-card">
 
-                <div class="cert-card">
-
-
-                    <span class="cert-icon">
-                        U
-                    </span>
-
+                    <div class="certificate-icon">
+                        <i class="fa-solid fa-u"></i>
+                    </div>
 
                     <div>
 
-                        <strong>
-                            Linux Administration Training Course
-                        </strong>
+                        <h3>Linux Administration Training Course</h3>
 
-                        <small>
-                            Udemy
-                            <br>
-                            Mar '26
-                        </small>
+                        <p>Udemy</p>
+
+                        <small>Mar '26</small>
 
                     </div>
 
-
                 </div>
 
-
             </div>
 
-
-        </div>
-
-
-
-        <!-- EDUCATION -->
-
-        <div id="education">
-
-
-            <div class="section-title">
-
-                <span>
-                    06
-                </span>
-
-                <h2>
-                    Education
-                </h2>
-
-            </div>
-
-
-
-            <!-- MASTER'S -->
-
-            <div class="education-card">
-
-
-                <div>
-
-                    <strong>
-                        Master's in Computer Science
-                    </strong>
-
-
-                    <small>
-
-                        S. M. Joshi College · Pune, India
-
-                        <br>
-
-                        Built hands-on experience through
-                        multiple cloud and DevOps projects.
-
-                    </small>
-
-                </div>
-
-
-                <b>
-
-                    CGPA: 9
-
-                    <br>
-
-                    <small>
-                        Jan '24 – Present
-                    </small>
-
-                </b>
-
-
-            </div>
-
-
-
-            <!-- BACHELOR'S -->
-
-            <div class="education-card">
-
-
-                <div>
-
-                    <strong>
-                        Bachelor's in Computer Science
-                    </strong>
-
-
-                    <small>
-
-                        S. M. Joshi College · Pune, India
-
-                        <br>
-
-                        Secured 6th rank among 120 students
-                        in Linux short-term course.
-
-                    </small>
-
-                </div>
-
-
-                <b>
-
-                    CGPA: 8.73
-
-                    <br>
-
-                    <small>
-                        Jan '21 – Jan '24
-                    </small>
-
-                </b>
-
-
-            </div>
-
-
-        </div>
-
+        </section>
 
     </div>
-
 
 </section>
 
 
-
 <!-- =====================================================
-     GITHUB + CONTACT
+     EDUCATION
 ===================================================== -->
 
-<section class="final-grid">
+<section id="education" class="education-section">
 
+    <div class="section-heading">
 
+        <span class="section-number">06</span>
 
-    <!-- GITHUB -->
-
-    <div
-        id="github"
-        class="github-panel">
-
-
-        <div class="section-title">
-
-            <span>
-                07
-            </span>
-
-            <h2>
-                GitHub Activity
-            </h2>
-
-        </div>
-
-
-
-        <div class="github-card">
-
-
-            <div class="github-head">
-
-
-                <span class="github-avatar">
-                    SP
-                </span>
-
-
-                <div>
-
-                    <strong>
-                        snehalpawar29
-                    </strong>
-
-                    <small>
-                        6 repositories · DevOps &amp; Cloud
-                    </small>
-
-                </div>
-
-
-            </div>
-
-
-
-            <div class="contrib-wrap">
-
-
-                <div class="months">
-
-                    <span>Sep</span>
-                    <span>Oct</span>
-                    <span>Nov</span>
-                    <span>Dec</span>
-                    <span>Jan</span>
-                    <span>Feb</span>
-                    <span>Mar</span>
-                    <span>Apr</span>
-                    <span>May</span>
-                    <span>Jun</span>
-                    <span>Jul</span>
-                    <span>Aug</span>
-
-                </div>
-
-
-
-                <div class="contrib-grid">
-
-                    <!-- Contribution blocks -->
-
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-                    <i></i><i></i><i></i><i></i>
-
-                </div>
-
-
-
-                <div class="days">
-
-                    <span>
-                        Mon
-                    </span>
-
-                    <span>
-                        Wed
-                    </span>
-
-                    <span>
-                        Fri
-                    </span>
-
-                </div>
-
-
-            </div>
-
-
-        </div>
-
+        <h2>Education</h2>
 
     </div>
 
 
-
-    <!-- CONTACT -->
-
-    <div
-        id="contact"
-        class="contact-panel">
+    <div class="education-grid">
 
 
-        <div class="section-title">
+        <div class="education-card">
 
-            <span>
-                08
-            </span>
+            <div class="education-icon">
+                <i class="fa-solid fa-book-open"></i>
+            </div>
 
-            <h2>
-                Let's Get In Touch
-            </h2>
+            <div class="education-content">
+
+                <h3>Master's in Computer Science</h3>
+
+                <p>S. M. Joshi College (CGPA: 9)</p>
+
+                <p class="education-description">
+                    Built hands-on experience through multiple
+                    cloud and DevOps projects alongside the
+                    Master of Computer Science program.
+                </p>
+
+            </div>
+
+            <div class="education-meta">
+                <span>Jan '24 – Present</span>
+                <span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Pune, India
+                </span>
+            </div>
 
         </div>
 
 
+        <div class="education-card">
 
-        <p>
+            <div class="education-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
 
-            I'm open to new opportunities and collaborations.
+            <div class="education-content">
 
-            <br>
+                <h3>Bachelor's in Computer Science</h3>
 
-            Feel free to reach out!
+                <p>S. M. Joshi College (CGPA: 8.73)</p>
 
-        </p>
+                <p class="education-description">
+                    Completed Bachelor's degree with a strong
+                    foundation in computer science and Linux.
+                </p>
+
+            </div>
+
+            <div class="education-meta">
+                <span>Jan '21 – Jan '24</span>
+                <span>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Pune, India
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 
+<!-- =====================================================
+     GITHUB ACTIVITY
+===================================================== -->
 
-        <div class="contact-links">
+<section class="github-section">
+
+    <div class="section-heading">
+
+        <span class="section-number">07</span>
+
+        <h2>GitHub Activity</h2>
+
+    </div>
 
 
-            <a href="mailto:snehalpawar2945@gmail.com">
+    <div class="github-card">
+
+        <div class="github-profile">
+
+            <div class="github-avatar">
+                SP
+            </div>
+
+            <div>
+
+                <strong>snehalpawar29</strong>
 
                 <span>
-                    ✉
+                    6 repositories · Last active recently
                 </span>
 
-                snehalpawar2945@gmail.com
+            </div>
 
-            </a>
+        </div>
 
 
-            <a href="#contact">
+        <div class="contribution-placeholder">
+
+            <div class="months">
+                <span>Sep</span>
+                <span>Oct</span>
+                <span>Nov</span>
+                <span>Dec</span>
+                <span>Jan</span>
+                <span>Feb</span>
+                <span>Mar</span>
+                <span>Apr</span>
+                <span>May</span>
+                <span>Jun</span>
+                <span>Jul</span>
+                <span>Aug</span>
+            </div>
+
+            <div class="activity-grid">
+
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+
+            </div>
+
+        </div>
+
+
+        <a
+            href="https://github.com/snehalpawar29"
+            target="_blank"
+            class="github-button"
+        >
+            <i class="fa-brands fa-github"></i>
+            View GitHub Profile
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact" class="contact-section">
+
+    <div class="contact-content">
+
+        <div>
+
+            <div class="section-heading">
+
+                <span class="section-number">08</span>
+
+                <h2>Let's Get In Touch</h2>
+
+            </div>
+
+            <p>
+                I'm open to new opportunities and collaborations.
+                Feel free to reach out!
+            </p>
+
+
+            <div class="contact-info">
+
+                <a href="mailto:snehalpawar2945@gmail.com">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    snehalpawar2945@gmail.com
+
+                </a>
+
 
                 <span>
-                    ⌖
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Pune, India
+
                 </span>
 
-                Pune, India
-
-            </a>
-
+            </div>
 
 
             <div class="contact-socials">
 
-
                 <a
                     href="https://github.com/snehalpawar29"
                     target="_blank"
-                    rel="noopener">
-
-                    ◉ GitHub
-
+                >
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
                 </a>
-
 
                 <a
-                    href="https://www.linkedin.com/in/snehalpawar29"
+                    href="https://www.linkedin.com/in/snehal-pawar-8a55b8216/"
                     target="_blank"
-                    rel="noopener">
-
-                    in LinkedIn
-
+                >
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
                 </a>
 
-
             </div>
-
 
         </div>
 
 
-
         <a
-            class="button primary contact-resume"
             href="https://drive.google.com/file/d/1p9yV_vwv-QyQ6Du_m72S_MTtkagmg6sy/view?usp=drivesdk"
             target="_blank"
-            rel="noopener">
-
-            ⇩ &nbsp;
+            class="primary-btn contact-resume"
+        >
+            <i class="fa-solid fa-download"></i>
             Download Resume
-
         </a>
-
 
     </div>
 
-
 </section>
 
-
 </main>
-
 
 
 <!-- =====================================================
@@ -1815,43 +1124,27 @@
 
 <footer>
 
+    <div class="footer-left">
 
-    <div>
+        <div class="footer-logo">SP</div>
 
-        <span class="footer-sp">
-            SP
-        </span>
+        <strong>Snehal Pawar</strong>
 
+        <span>|</span>
 
-        <strong>
-            Snehal Pawar
-        </strong>
-
-
-        <i></i>
-
-
-        <span>
-            DevOps Engineer
-        </span>
+        <span>DevOps Engineer</span>
 
     </div>
 
 
+    <div class="footer-right">
 
-    <div>
-
-        Automate today
-        &nbsp; · &nbsp;
-        Scale tomorrow
-        &nbsp; ♡
+        Automate today&nbsp; • &nbsp;Scale tomorrow ♡
 
     </div>
-
 
 </footer>
 
 
 </body>
-
-</html>
+                    </html>
