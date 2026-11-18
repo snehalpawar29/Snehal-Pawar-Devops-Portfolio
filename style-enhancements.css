@@ -1,0 +1,329 @@
+/* Typography + subtle motion upgrades for Snehal Pawar's portfolio.
+   Load this file AFTER style.css so these rules override the original sizes. */
+
+:root {
+  --motion-fast: 180ms ease;
+  --motion-smooth: 650ms cubic-bezier(.2, .7, .2, 1);
+}
+
+/* Make the site easier to read without changing its visual identity. */
+body {
+  font-size: 17px;
+  line-height: 1.78;
+}
+
+.nav-links a,
+.nav-cta {
+  font-size: 12px;
+}
+
+.brand {
+  font-size: 15px;
+}
+
+.eyebrow {
+  font-size: 12px;
+}
+
+.prompt-line {
+  font-size: 14px;
+}
+
+.hero h1 {
+  font-size: clamp(42px, 5.4vw, 70px);
+}
+
+.role-line {
+  font-size: clamp(27px, 3.2vw, 40px);
+}
+
+.hero-lead {
+  font-size: 17px;
+  line-height: 1.85;
+}
+
+.button {
+  min-height: 48px;
+  padding-inline: 19px;
+  font-size: 14px;
+}
+
+.social-row a {
+  font-size: 13px;
+}
+
+.terminal-top {
+  font-size: 11px;
+}
+
+.terminal-body {
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.json-output {
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.command-chips button {
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.terminal-input-row input {
+  font-size: 13px;
+}
+
+.terminal-output {
+  font-size: 12px;
+}
+
+.section-kicker {
+  font-size: 12px;
+}
+
+.section-heading h2,
+.about-layout h2 {
+  font-size: clamp(32px, 3.6vw, 44px);
+}
+
+.section-heading > p {
+  font-size: 15px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.85;
+}
+
+.fact-row {
+  font-size: 13px;
+}
+
+.skill-panel h3 {
+  font-size: 17px;
+}
+
+.skill-panel p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.tag-list span {
+  font-size: 12px;
+  padding: 5px 8px;
+}
+
+.text-link {
+  font-size: 12px;
+}
+
+.project-card h3 {
+  font-size: 19px;
+}
+
+.project-card > p {
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+.project-flow {
+  font-size: 11px;
+}
+
+.project-link {
+  font-size: 12px;
+}
+
+.achievement {
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.project-index {
+  font-size: 11px;
+}
+
+.project-state {
+  font-size: 10px;
+}
+
+.experience-title h3 {
+  font-size: 19px;
+}
+
+.experience-title p,
+.date-label {
+  font-size: 12px;
+}
+
+.experience-summary,
+.experience-list {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.education-year {
+  font-size: 10px;
+}
+
+.education-card h3 {
+  font-size: 18px;
+}
+
+.education-card p {
+  font-size: 14px;
+}
+
+.education-card strong {
+  font-size: 13px;
+}
+
+.cert-row > div span {
+  font-size: 11px;
+}
+
+.cert-row h3 {
+  font-size: 15px;
+}
+
+.cert-row > p {
+  font-size: 12px;
+}
+
+.contact-panel h2 {
+  font-size: clamp(32px, 4.2vw, 48px);
+}
+
+.contact-panel > div:first-child > p:last-child {
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.contact-links span {
+  font-size: 13px;
+}
+
+.contact-links small {
+  font-size: 10px;
+}
+
+.site-footer p,
+.site-footer > span {
+  font-size: 11px;
+}
+
+/* Gentle entrance motion. Elements are revealed by the small script in index.html. */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(22px);
+  transition:
+    opacity var(--motion-smooth),
+    transform var(--motion-smooth);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* A little life in the hero, without distracting movement. */
+.status-dot,
+.project-state i {
+  animation: status-pulse 2.4s ease-in-out infinite;
+}
+
+.terminal-card {
+  transition: transform 350ms ease, box-shadow 350ms ease;
+}
+
+.terminal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 28px 85px rgba(0, 0, 0, .42), 0 0 60px rgba(140, 230, 165, .08);
+}
+
+.skill-panel,
+.project-card,
+.education-card {
+  transition:
+    transform 260ms ease,
+    border-color 260ms ease,
+    box-shadow 260ms ease;
+}
+
+.skill-panel:hover,
+.project-card:hover,
+.education-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, .2);
+}
+
+.button,
+.nav-cta,
+.text-link,
+.project-link,
+.contact-links a {
+  transition: color var(--motion-fast), background var(--motion-fast), border-color var(--motion-fast), transform var(--motion-fast);
+}
+
+.button:active {
+  transform: translateY(1px) scale(.985);
+}
+
+@keyframes status-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(140, 230, 165, .42); }
+  50% { box-shadow: 0 0 0 6px rgba(140, 230, 165, 0); }
+}
+
+@media (max-width: 760px) {
+  body {
+    font-size: 16px;
+  }
+
+  .hero-lead {
+    font-size: 16px;
+  }
+
+  .terminal-body,
+  .json-output {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 540px) {
+  .hero h1 {
+    font-size: clamp(38px, 10vw, 46px);
+  }
+
+  .role-line {
+    font-size: clamp(25px, 7vw, 30px);
+  }
+
+  .section-heading h2,
+  .about-layout h2 {
+    font-size: clamp(29px, 8vw, 36px);
+  }
+
+  .project-card h3,
+  .experience-title h3 {
+    font-size: 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal-on-scroll {
+    opacity: 1;
+    transform: none;
+  }
+}
